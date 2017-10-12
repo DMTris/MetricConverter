@@ -15,6 +15,9 @@ import java.util.Scanner;
 
 public class MetricConverterTest
 {
+   //scanner convertInput variable for menu methods
+   static Scanner convertInput = new Scanner(System.in);
+   
    public static void main(String[] args)
    {
       //variable declaration
@@ -53,9 +56,6 @@ public class MetricConverterTest
    //menuOption1 - kgToLbs
    public static void menuOption1()
    {
-      //input from user to convert
-      Scanner convertInput = new Scanner(System.in);
-      
       System.out.print("Enter the kg to convert...");
       double kg = convertInput.nextDouble();
       
@@ -66,9 +66,6 @@ public class MetricConverterTest
    //menuOption2 - kmToMiles
    public static void menuOption2()
    {
-      //input from user to convert
-      Scanner convertInput = new Scanner(System.in);
-      
       System.out.print("Enter the km to convert...");
       double km = convertInput.nextDouble();
       
@@ -79,9 +76,6 @@ public class MetricConverterTest
    //menuOption3 - litersToQuarts
    public static void menuOption3()
    {
-      //input from user to convert
-      Scanner convertInput = new Scanner(System.in);
-      
       System.out.print("Enter the liters to convert...");
       double liters = convertInput.nextDouble();
       
@@ -92,9 +86,6 @@ public class MetricConverterTest
    //menuOption4 - celsiusToFahrenheit
    public static void menuOption4()
    {
-      //input from user to convert
-      Scanner convertInput = new Scanner(System.in);
-      
       System.out.print("Enter the celsius to convert...");
       double celsius = convertInput.nextDouble();
       
